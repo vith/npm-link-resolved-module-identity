@@ -1,0 +1,16 @@
+{
+  "name": "module-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-two": "file:../module-two/module-two-1.0.0.tgz",
+    "semver": "^5.4.1"
+  },
+  "private": true
+}
